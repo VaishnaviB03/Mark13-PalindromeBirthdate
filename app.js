@@ -150,12 +150,12 @@ function clickHandler(e){
 
         var isPalindrome = checkPalindromeDates(date)
         if(isPalindrome){
-            output.innerText = "Yayy! Your Birthday Is A Palindrome!"
+            output.innerText = "Yayy! Your Birthday Is A Palindrome! 🤩"
         }
         else{
             var [dte, nextDate] = nextPalindromeDate(date)
 
-            output.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} , you missed it by ${dte} days.`
+            output.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} , you missed it by ${dte} days. 🙁`
         }
     }
 }
